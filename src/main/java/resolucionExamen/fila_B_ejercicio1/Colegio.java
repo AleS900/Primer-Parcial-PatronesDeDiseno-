@@ -12,7 +12,6 @@ public class Colegio {
     }
 
     public void matricular(Estudiante student, Integer precio_a_pagar){
-        VentanillaDePago.getInstance().add(student, precio_a_pagar);
     }
 
 }
